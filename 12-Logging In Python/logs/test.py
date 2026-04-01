@@ -5,4 +5,4 @@ def add(a,b):
     return a+b
 
 logging.debug("The addition function is called")
-add(10,15)
+add(10,20)
