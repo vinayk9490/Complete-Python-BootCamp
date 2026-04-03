@@ -1,0 +1,14 @@
+<h1>
+    Based on the marks you have scored, you have {{ results }}
+    {% if results >= 90 %}
+        Excellent work!
+    {% elif results >= 80 %}
+        Great job!
+    {% elif results >= 70 %}
+        Good effort!
+    {% elif results >= 60 %}
+        You passed, but there's room for improvement.
+    {% else %}
+        Unfortunately, you did not pass. Better luck next time!
+    {% endif %}
+</h1>
